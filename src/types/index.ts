@@ -1,4 +1,11 @@
-index.ts
+export type IContextType = {
+  user: IUser;
+  isLloading: boolean;
+  getUser: React.Dispatch<React.SetStateAction<IUser>>;
+  isAuthenticated: boolean;
+  setIsAuthenticated: React.Dispatch<React.SetStateAction<boolean>>;
+  checkAuthUser: () => Promise<boolean>;
+};
 export type INavLink = {
   imgURL: string;
   route: string;
