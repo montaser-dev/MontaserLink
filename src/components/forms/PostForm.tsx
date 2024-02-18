@@ -79,7 +79,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
     navigate("/");
   };
 
-  return (
+   return (
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(handleSubmit)}

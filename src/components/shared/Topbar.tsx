@@ -40,7 +40,7 @@ const Topbar = () => {
               className="h-8 w-8 rounded-full"
             />
           </Link>
-        </div>
+        </div> 
       </div>
     </section>
   );
